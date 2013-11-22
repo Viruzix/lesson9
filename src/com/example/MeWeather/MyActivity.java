@@ -408,7 +408,10 @@ public class MyActivity extends Activity {
             }
 
 
+
             tur = String.valueOf(time) + String.valueOf(tur.charAt(2)) + String.valueOf(tur.charAt(3)) + String.valueOf(tur.charAt(4)) + String.valueOf(tur.charAt(5)) + String.valueOf(tur.charAt(6)) + String.valueOf(tur.charAt(7));
+            tim.setText(tur);
+            tur = String.valueOf(tur.charAt(6)) + String.valueOf(tur.charAt(7));
             if ((time >= 9 && tur == "PM") || (time <= 6 && tur == "AM")){
                 imaga.setImageResource(night);
             } else {
