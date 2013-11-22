@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" android:layout_gravity="left">
+        <ImageView
+                android:layout_width="113dp"
+                android:layout_height="89dp"
+                android:id="@+id/image"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="time"
+                android:id="@+id/time" android:layout_gravity="center"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="weather"
+                android:id="@+id/weather"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" android:layout_gravity="right">
+        <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cities" android:spinnerMode="dialog"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Temperature"
+                android:id="@+id/temp" android:layout_gravity="left|center_vertical"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="vlaga"
+                android:id="@+id/vlaga" android:layout_gravity="left|center_vertical"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="wind1"
+                android:id="@+id/ws" android:layout_gravity="left|center_vertical"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Direction"
+                android:id="@+id/dir" android:layout_gravity="center"/>
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="nuton"
+                android:id="@+id/nuton" android:layout_gravity="left|center_vertical"/>
+    </LinearLayout>
+</LinearLayout>
