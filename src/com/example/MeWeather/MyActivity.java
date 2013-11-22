@@ -137,7 +137,6 @@ public class MyActivity extends Activity {
             Integer clearnight = R.drawable.nightclear;
             Integer snownight = R.drawable.nightsnow;
             Integer cloudynight = R.drawable.nightcloudy;
-            Integer fairnight = R.drawable.nightfair;
             Integer nightrain = R.drawable.nightrain;
             Integer nightsnow = R.drawable.nightsnow;
             Integer nightthunder = R.drawable.nightthunder;
@@ -384,7 +383,7 @@ public class MyActivity extends Activity {
                 case 113:
                     weath = "Clear/Sunny";
                     day = clear;
-                    night = clear;
+                    night = clearnight;
                     break;
             }
             tur = result.timec;
